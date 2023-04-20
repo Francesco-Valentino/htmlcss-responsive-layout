@@ -120,6 +120,20 @@ div.col-wrapper{
     nav{
         padding: 1.2rem 0;
     }
+
+    div.col-wrapper{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    div.col{
+        width: 30%;
+    }
+
+    div.wide-col{
+        width: 65%;
+    }
 }
 
 @media screen and (min-width: 1160px){
