@@ -4,3 +4,23 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+}
+
+.dir-row{
+    flex-direction: row;
+}
+
+.dir-column{
+    flex-direction: column;
+}
+
+header{
+    height: 100px;
+    background-color: #0084FD;
+}
