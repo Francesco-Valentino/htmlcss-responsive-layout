@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 90%;
+    width: 86%;
     margin: 0 auto;
 }
 
@@ -116,6 +116,68 @@ div.col-wrapper{
     width: 75%;
 }
 
+section.jumbo{
+    background-color: #9792E4;
+    padding-bottom: 3rem;
+    /*height: 1300px;*/
+}
+
+.first-col{
+    color: white;
+}
+
+.first-col img{
+    max-width: 90%;
+    padding: 4.5rem 0;
+}
+
+.first-col h1{
+    font-size: 2.6rem;
+    padding-bottom: 3rem;
+    font-weight: 700;
+}
+
+.first-col p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    padding-bottom: 2rem;
+}
+
+.second-col{
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.second-col img{
+    max-width: 100%;
+}
+
+.second-col h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 2rem 0;
+}
+
+.second-col p{
+    color: rgb(84, 84, 84);
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 0 2rem 3rem 2rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.small-circle{
+    color: black;
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 1rem 1.2rem;
+    margin-bottom: 3rem;
+}
+
 @media screen and (min-width: 768px) {
     nav{
         padding: 1.2rem 0;
@@ -142,6 +204,24 @@ div.col-wrapper{
 
     div.wide-col button{
         max-width: 250px;
+    }
+
+    .first-col h1{
+        font-size: 3.2rem;
+    }
+
+    .first-col p{
+        font-size: .9rem;
+    }
+
+    .second-col h1{
+        font-size: 1.4rem;
+        padding: 1.5rem 0;
+    }
+
+    .second-col p{
+        font-size: 1rem;
+        padding: 0 3rem 1.5rem 3rem;
     }
 }
 
@@ -184,5 +264,46 @@ div.col-wrapper{
     .col-wrapper .col p{
         font-size: .9rem;
         max-width: 360px;
+    }
+
+    div.container.jumbo-wrapper{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    div.first-col,
+    div.second-col{
+        width: 50%;
+        max-width: 350px;
+    }
+
+    div.second-col{
+        margin-left: 3rem;
+    }
+
+    div.first-col h1{
+        font-size: 1.3rem;
+    }
+
+    div.first-col p{
+        font-size: .7rem;
+        line-height: 1.7rem;
+        font-weight: 500;
+        padding-right: 2rem;
+    }
+
+    div.second-col img{
+        max-width: 160px;
+        margin-top: 1.5rem;
+    }
+
+    div.second-col h1{
+        font-size: 1.2rem;
+    }
+
+    div.second-col p{
+        font-size: .8rem; 
+        line-height: 1.8rem;      
     }
 }
