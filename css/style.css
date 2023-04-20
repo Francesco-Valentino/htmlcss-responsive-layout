@@ -83,7 +83,7 @@ div.col-wrapper{
 }
 
 .col h2{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: #0084FD;
     padding: 2.5rem;
     font-weight: 700;
@@ -132,7 +132,16 @@ div.col-wrapper{
     }
 
     div.wide-col{
+        align-items: flex-start;
         width: 65%;
+    }
+
+    div.wide-col img{
+        max-width: 330px;
+    }
+
+    div.wide-col button{
+        max-width: 250px;
     }
 }
 
@@ -151,5 +160,29 @@ div.col-wrapper{
 
     div.desktop-header-ul{
         display: block;
+    }
+
+    div.wide-col{
+        position: relative;
+    }
+
+    div.wide-col img{
+        max-width: 260px;
+        position: absolute;
+        bottom: 0;
+        right: 25px;
+    }
+
+    .col-wrapper .col h1{
+        font-size: 5rem;
+    }
+
+    .col-wrapper .col h2{
+        font-size: 1.4rem;
+    }
+
+    .col-wrapper .col p{
+        font-size: .9rem;
+        max-width: 360px;
     }
 }
