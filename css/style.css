@@ -124,7 +124,7 @@ div.col-wrapper{
     div.col-wrapper{
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     div.col{
