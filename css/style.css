@@ -61,10 +61,22 @@ div.col-wrapper{
 }
 
 .col{
-    height: 500px;
+    color: grey;
+    /*height: 500px;*/
     background-color: #B5DDFF;
     border-radius: 20px;
     margin: 2.5rem 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col h1{
+    font: 1.7rem;
+    color: #0084FD;
+}
+
+.wide-col img{
+    width: 70%;
 }
 
 @media screen and (min-width: 768px) {
