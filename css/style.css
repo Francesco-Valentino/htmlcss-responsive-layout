@@ -13,14 +13,6 @@
     display: flex;
 }
 
-.dir-row{
-    flex-direction: row;
-}
-
-.dir-column{
-    flex-direction: column;
-}
-
 header{
     /*height: 100px;*/
     background-color: #0084FD;
@@ -61,6 +53,18 @@ button{
     border: none;
     border-radius: 20px;
     line-height: 1.8rem;
+}
+
+div.col-wrapper{
+    flex-direction: column;
+    padding: 1.5rem 0;
+}
+
+.col{
+    height: 500px;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    margin: 2.5rem 0;
 }
 
 @media screen and (min-width: 768px) {
