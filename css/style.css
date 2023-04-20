@@ -21,7 +21,25 @@
 }
 
 header{
-    height: 100px;
+    /*height: 100px;*/
     background-color: #0084FD;
     color: white;
+}
+
+nav{
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+nav img{
+    padding-left: 1.5rem;
+}
+
+div.bars{
+    font-size: 2rem;
+    padding-right: 1.5rem;
+}
+
+div.desktop-header-ul{
+    display: none;
 }
