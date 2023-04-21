@@ -235,7 +235,15 @@ section.jumbo{
     line-height: 3.6rem;
 }
 
+.white-cards-sect{
+    background-color: #9792E4;
+    height: 1300px;
+}
 
+.white-card{
+    background-color: white;
+    border-radius: 20px;
+}
 
 @media screen and (min-width: 768px) {
     nav{
