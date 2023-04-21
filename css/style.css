@@ -438,6 +438,45 @@ section.jumbo{
         font-size: 1.1rem;
         letter-spacing: .2rem;
     }
+
+    .about-us-wrapper{
+        flex-direction: row;
+    }
+
+    div.former-col{
+        width: 60%;
+    }
+
+    div.former-col p{
+        font-size: 1.1rem;
+    }
+
+    #added-text{
+        padding-top: 2rem;
+    }
+
+    div.latter-col{
+        width: 40%;
+    }
+
+    #ceo-photo{
+        margin-bottom: .5rem;
+    }
+
+    .latter-col p{
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        padding: 1rem 2.5rem;
+        font-weight: 800;
+    }
+    
+    .latter-col button{
+        font-size: 1.2rem;
+        line-height: 2.6rem;
+        padding: 0 1.2rem;
+        border-radius: 20px;
+        margin-left: 2.5rem;
+    }
 }
 
 @media screen and (min-width: 1160px){
