@@ -178,6 +178,35 @@ section.jumbo{
     margin-bottom: 3rem;
 }
 
+.testimonial-wrapper{
+    flex-direction: column;
+    text-align: center;
+}
+
+.testimonial-text{
+    /*height: 1000px;*/
+    text-align: center;
+}
+
+.testimonial-text h2{
+    text-transform: uppercase;
+}
+
+.testimonial-text h1{
+    color: #9792E4;
+}
+
+.testimonial-card{
+    height: 500px;
+    background-color: #9792E4;
+    flex-direction: column;
+}
+
+.testimonial-card img{
+    width: 250px;
+    height: 250px;
+}
+
 @media screen and (min-width: 768px) {
     nav{
         padding: 1.2rem 0;
