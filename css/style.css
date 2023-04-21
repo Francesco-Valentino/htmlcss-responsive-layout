@@ -232,7 +232,7 @@ section.jumbo{
 
 .testimonial-card span{
     text-transform: uppercase;
-    line-height: 2.6rem;
+    line-height: 3.6rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -279,6 +279,21 @@ section.jumbo{
     .second-col p{
         font-size: 1rem;
         padding: 0 3rem 1.5rem 3rem;
+    }
+
+    div.testimonial-card{
+        flex-direction: row;
+    }
+
+    div.testimonial-card img{
+        width: 220px;
+        height: 220px;
+        margin-left: 3rem;
+    }
+
+    div.testimonial-card p{
+        text-align: left;
+        font-size: 1.2rem;
     }
 }
 
@@ -362,5 +377,14 @@ section.jumbo{
     div.second-col p{
         font-size: .8rem; 
         line-height: 1.8rem;      
+    }
+
+    div.testimonial-card img{
+        width: 180px;
+        height: 180px;
+    }
+
+    div.testimonial-card p{
+        font-size: 1rem;
     }
 }
