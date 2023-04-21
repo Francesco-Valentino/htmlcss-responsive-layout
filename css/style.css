@@ -195,14 +195,16 @@ section.jumbo{
     font-weight: 300;
 }
 
-.testimonial-text h1{
+.testimonial-text h1,
+.former-col h1{
     color: #9792E4;
     padding-bottom: 2rem;
     font-weight: 600;
     font-size: 2.6rem;
 }
 
-.testimonial-text p{
+.testimonial-text p,
+.former-col p{
     font-size: 1.5rem;
 }
 
@@ -290,6 +292,58 @@ section.jumbo{
     color: white;
     padding: 3rem 0;
     text-align: center;
+}
+
+.about-us-wrapper{
+    padding: 3rem 0;
+    flex-direction: column;
+}
+
+.abtus-col{
+    padding-bottom: 2rem;
+}
+
+.former-col h1{
+    font-size: 3rem;
+    color: #9792E4;
+}
+
+.former-col p{
+    font-size: 1.3rem;
+    line-height: 2.6rem;
+}
+
+#ceo-photo{
+    position: relative;
+    width: 260px;
+    margin-bottom: 2rem;
+}
+
+.latter-col img{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.latter-col span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #9792E4;
+    font-size: 6rem;
+}
+
+.latter-col p{
+    font-size: 2rem;
+    color: #9792E4;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    line-height: 2.7rem;
+}
+
+.latter-col button{
+    background-color: #9792E4;
 }
 
 @media screen and (min-width: 768px) {
