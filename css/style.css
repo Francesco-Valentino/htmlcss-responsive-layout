@@ -352,6 +352,33 @@ section.jumbo{
         text-align: left;
         font-size: 1.2rem;
     }
+
+    div.white-cards-wrapper{
+        justify-content: space-between;
+    }
+
+    div.white-card{
+        width: calc(50% - 1.5rem);
+    }
+
+    div.white-card h1{
+        font-size: 3rem;
+    }
+    
+    div.white-card h2{
+        font-size: 1.5rem;
+    }
+    
+    div.white-card p{
+        font-size: 1rem;
+    }
+    
+    div.white-card button{
+        padding: 0 2.6rem;
+        line-height: 2.5rem;
+        font-size: 1.1rem;
+        letter-spacing: .2rem;
+    }
 }
 
 @media screen and (min-width: 1160px){
@@ -443,5 +470,30 @@ section.jumbo{
 
     div.testimonial-card p{
         font-size: 1rem;
+    }
+
+    div.white-card{
+        width: calc(33% - 2rem);
+    }
+
+    div.white-card h1{
+        padding: 2rem 2rem .5rem 2rem;
+    }
+    
+    div.white-card h2{
+        font-size: 1.3rem;
+    }
+    
+    div.white-card p{
+        font-size: .75rem;
+        line-height: 1.5rem;
+    }
+    
+    div.white-card button{
+        padding: 0 2.3rem;
+        line-height: 2.3rem;
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        margin: 1.2rem 0 1.5rem 2rem;
     }
 }
