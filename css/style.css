@@ -237,12 +237,59 @@ section.jumbo{
 
 .white-cards-sect{
     background-color: #9792E4;
-    height: 1300px;
+    /*height: 1300px;*/
+}
+
+.white-cards-wrapper{
+    flex-wrap: wrap;
 }
 
 .white-card{
     background-color: white;
     border-radius: 20px;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.white-card h1,
+.white-card h2{
+    color: #9792E4;
+}
+
+.white-card h1{
+    font-size: 4rem;
+    padding: 1rem 2rem;
+}
+
+.white-card h2{
+    font-size: 2rem;
+    padding: .5rem 2rem;
+}
+
+.white-card p{
+    line-height: 2rem;
+    padding: .5rem 2rem;
+    font-size: 1.2rem;
+}
+
+.white-card button{
+    background-color: #9792E4;
+    color: white;
+    line-height: 3rem;
+    padding: 0 3.5rem;
+    letter-spacing: .3rem;
+    font-size: 1.2rem;
+    margin: 2rem 0 3rem 2rem;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+#white-cards-title{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
