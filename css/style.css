@@ -186,25 +186,53 @@ section.jumbo{
 .testimonial-text{
     /*height: 1000px;*/
     text-align: center;
+    margin: 3rem;
 }
 
 .testimonial-text h2{
     text-transform: uppercase;
+    padding-bottom: 2rem;
+    font-weight: 300;
 }
 
 .testimonial-text h1{
     color: #9792E4;
+    padding-bottom: 2rem;
+    font-weight: 600;
+    font-size: 2.6rem;
+}
+
+.testimonial-text p{
+    font-size: 1.5rem;
 }
 
 .testimonial-card{
-    height: 500px;
+    /*height: 500px;*/
     background-color: #9792E4;
     flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    border-radius: 20px;
+    margin: 1.5rem 0;
 }
 
 .testimonial-card img{
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 2rem 0;
+}
+
+.testimonial-card p{
+    padding: 1.5rem 2rem;
+}
+
+.testimonial-card span{
+    text-transform: uppercase;
+    line-height: 2.6rem;
 }
 
 @media screen and (min-width: 768px) {
